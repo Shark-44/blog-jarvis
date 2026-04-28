@@ -139,3 +139,18 @@ hr {
 	/* added line to stop words getting smushed together (as they go onto separate lines and some screen readers do not understand line feeds as a space */
 	white-space: nowrap;
 }
+
+  .hero {
+    text-align: center;
+  }
+  .hero img {
+    width: 100%;
+    max-height: 600px;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+  .hero h1 {
+    margin-top: 1.5rem;
+    font-size: 1.8rem;
+    color: #58a6ff;
+  }
