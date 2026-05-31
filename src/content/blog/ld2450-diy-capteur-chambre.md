@@ -39,7 +39,7 @@ prenne la bonne décision sur l'ensemble des actionneurs de la pièce.
 - Câblage UART : TX ESP32 (GPIO17) → RX LD2450, RX ESP32 (GPIO16) → TX LD2450
 - Alimentation 5V
 
-> **Image à ajouter** : photo du montage ESP32 + LD2450 câblés
+![2450-2](/images/2450-2.webp)
 
 ---
 
@@ -56,8 +56,7 @@ en mouvement ou immobiles. Pour chaque cible détectée, il transmet en continu 
 Le capteur est positionné en hauteur face à la pièce. L'axe Y représente la profondeur
 depuis le capteur, l'axe X la largeur.
 
-> **Image à ajouter** : schéma vue de dessus avec axes X et Y
-
+![ld2450](/images/ld2450.webp)
 ---
 
 ## Étape 1 — YAML initial : tester le capteur
@@ -239,7 +238,6 @@ en temps réel dans HA. Ces coordonnées serviront de base pour définir Z2 et Z
 
 Mode sélectionné : **détection** — seules les cibles dans cette zone sont reportées.
 
-> **Image à ajouter** : capture de l'intégration ESPHome dans HA avec les sliders Zone 1
 
 ---
 
@@ -272,7 +270,6 @@ Correspond à la zone de passage devant la porte de sortie. Le pattern
 `Présence porte = true` puis `false` est interprété par GEMMA comme un signal de
 transition — potentiellement un départ vers l'état **ABSENT**.
 
-> **Image à ajouter** : schéma vue de dessus avec Z1, Z2, Z3 positionnées dans la pièce
 
 ### Coordonnées des zones
 
