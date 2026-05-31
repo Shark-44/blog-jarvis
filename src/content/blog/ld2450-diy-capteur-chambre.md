@@ -39,7 +39,7 @@ prenne la bonne décision sur l'ensemble des actionneurs de la pièce.
 - Câblage UART : TX ESP32 (GPIO17) → RX LD2450, RX ESP32 (GPIO16) → TX LD2450
 - Alimentation 5V
 
-![2450-2](/images/2450-2.webp)
+![2450-2](/blog-jarvis/images/2450-2.webp)
 
 ---
 
@@ -56,7 +56,7 @@ en mouvement ou immobiles. Pour chaque cible détectée, il transmet en continu 
 Le capteur est positionné en hauteur face à la pièce. L'axe Y représente la profondeur
 depuis le capteur, l'axe X la largeur.
 
-![ld2450](/images/ld2450.webp)
+![ld2450](/blog-jarvis/images/ld2450.webp)
 ---
 
 ## Étape 1 — YAML initial : tester le capteur
