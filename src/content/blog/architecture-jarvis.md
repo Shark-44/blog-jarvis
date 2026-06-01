@@ -8,7 +8,7 @@ tags: ["jarvis", "gemma", "architecture", "home-assistant", "appdaemon", "overvi
 Avant de plonger dans les articles techniques sur chaque brique du système, il est utile
 d'avoir une vision globale de l'architecture. Comment les capteurs parlent aux moteurs.
 Comment les moteurs consultent les fichiers de configuration. Comment la maison finit
-par agir.S
+par agir.
 
 Cette architecture s'est construite progressivement, mais elle répond à un principe
 unique : **la maison ne réagit pas à des événements. Elle comprend un contexte.**
