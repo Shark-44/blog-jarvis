@@ -17,7 +17,7 @@ unique : **la maison ne réagit pas à des événements. Elle comprend un contex
 
 ## Vue d'ensemble
 
-![Jarvis](/blog-jarvis/images/architecture-jarvis.webp)
+![architecture-jarvis](/blog-jarvis/images/architecture-jarvis.webp)
 
 ## Couche 1 — Les capteurs
 
