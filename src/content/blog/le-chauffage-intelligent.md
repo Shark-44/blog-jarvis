@@ -1,7 +1,7 @@
 ---
 title: "Le chauffage : quand JARVIS apprend l'inertie de ta maison"
 description: "Après la lumière, JARVIS étend son cerveau au chauffage. Même philosophie : comprendre le contexte plutôt que réagir à des règles. Et cette fois, le système apprend."
-pubDate: 2026-06-07
+pubDate: 2026-06-01
 tags: ["jarvis", "gemma", "chauffage", "thermique", "home-assistant", "appdaemon", "anticipation"]
 ---
 
